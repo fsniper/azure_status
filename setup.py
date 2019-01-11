@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="azure_status",
-    version="0.0.1",
+    version="0.0.2",
     author="Onur Yalazi",
     author_email="onur.yalazi@gmail.com",
     description="Azure Status Health page scraper",

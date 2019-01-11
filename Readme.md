@@ -16,4 +16,4 @@ stat[1]['americas']['compute']['virtual_machines']
 {'east_us': 'good', 'east_us_2': 'good', 'central_us': 'good', 'north_central_us': 'good', 'south_central_us': 'good', 'west_central_us': 'good', 'west_us': 'good', 'west_us_2': 'good', 'canada_east': 'good', 'canada_central': 'good', 'brazil_south': 'good'}
 ```
 
-All the keys are lower case, stripped, snake cased, and without any chars except [a-z0-9]
+All the keys are lower case, stripped, snake cased, and without any chars except [a-z0-9\ \.]

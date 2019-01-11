@@ -8,7 +8,7 @@ class AzureStatus:
     @staticmethod
     def _parse_content(content):
         def __clean_text(text):
-            return re.sub("[^a-z0-9\ ]*","", text).strip().replace(" ","_")
+            return re.sub("[^a-z0-9\ \.]*","", text).strip().replace(" ","_")
 
         soup = BeautifulSoup(content, 'html.parser')
         update_time = soup.find_all(class_='updated-time')[0].get_text()
